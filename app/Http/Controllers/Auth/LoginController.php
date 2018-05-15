@@ -46,10 +46,9 @@ class LoginController extends Controller
             $user = $this->guard()->user();
             $user->generateToken();
 
-            return  response()->json(['Your api Token' => $user->generateToken()], 200);
 
-
-        }
+                return $this->sendLoginResponse($request);
+            }
 
         return $this->sendFailedLoginResponse($request);
     }
@@ -62,6 +61,7 @@ class LoginController extends Controller
             $user->apiToken = null;
             $user->save();
         }
-        return response()->json(['data' => 'User logged out.'], 200);
+        $request->session()->invalidate();
+        return redirect('/');
     }
 }
