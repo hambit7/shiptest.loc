@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx
+xmlns="http://www.topografix.com/GPX/1/1"
+version="1.1"
+creator="Wikipedia"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <time>2011-09-22T18:56:51Z</time>
+  <metadata>
+    <name>Name</name>
+
+    <desc>Description</desc>
+    <author>
+     <name>Autor</name>
+    </author>
+  </metadata>
+  <trk>
+    <name>exercise</name>
+    <trkseg>
+      <trkpt lat="59.934721667" lon="30.310183333">
+        <time>2011-09-22T18:56:51Z</time>
+           <speed>45</speed>
+        <fix>2d</fix>
+        <sat>5</sat>
+      </trkpt>
+      <trkpt lat="59.934731667" lon="30.310083333">
+        <time>2011-09-22T18:56:56Z</time>
+         <speed>30</speed>
+        <fix>2d</fix>
+        <sat>5</sat>
+      </trkpt>
+      <trkpt lat="59.934646667" lon="30.309901667">
+        <time>2011-09-22T18:57:01Z</time>
+           <speed>12</speed>
+        <fix>2d</fix>
+        <sat>6</sat>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
